@@ -1,0 +1,43 @@
+---
+title: "Data Science Capstone Pitch"
+author: "Michael Dowling"
+date: "8/24/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+These slides are apart of the capstone project in Coursera for the Data Science Specialization class.
+
+The goal of this exercise is to create an application that takes user input and runs an algorithm to predict the word that should come next.
+
+## Predicting the Next Word
+
+In order to complete this task we used skills we learned throughout the class and did research on how to utilize NLP (Natural Language Processing).
+
+We started by doing exploratory analysis on the data from Twitter, Blogs, and News sources. Please find a full summary report linked here :
+
+https://rpubs.com/mdowling1234/801822
+
+## Natural Language Processing
+
+Natural language processing strives to build machines that understand and respond to text or voice data—and respond with text or speech of their own—in much the same way humans do.
+
+https://www.ibm.com/cloud/learn/natural-language-processing
+
+## Shiny App
+The R Shiny app that resulted from this project is linked below:
+
+Please follow the instructions listed with the application and note that the model supports uni-grams, bi-grams, and tri-grams.
+
+https://michael1234.shinyapps.io/CapstoneApp/
+
+## Conclusion
+
+The code for the this project can be found here:
+
+https://github.com/mdowling1234/PredictionAssignment
